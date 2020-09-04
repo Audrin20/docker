@@ -1,0 +1,1 @@
+gpasswd -a debian(user) docker # Colocando o user debian no grupo docker

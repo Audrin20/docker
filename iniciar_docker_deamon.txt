@@ -1,0 +1,7 @@
+dockerd -H tcp://192.168.0.111:2375 & 
+
+# Substitua por seu IP e Porta
+# dockerd -> Para iniciar o docker deamon
+# -H -> Especifica o Host
+# TCP Seu ip e porta
+# & -> Para devolver o terminal 

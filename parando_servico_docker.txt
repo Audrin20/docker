@@ -1,0 +1,1 @@
+service docker stop # Para o serviço do docker

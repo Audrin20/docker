@@ -1,0 +1,15 @@
+docker ps 
+
+# Para listar os conteiners ativos
+
+docker ps -a 
+
+# Para listar todos os conteiners inclusive os já executados e encerrados
+
+docker start CONTEINER_ID
+
+# recupera  o conteiner com de ID informado
+
+docker attach CONTEINER_ID
+
+# Reconecta ao conteiner de ID informado

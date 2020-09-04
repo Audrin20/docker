@@ -1,0 +1,4 @@
+sudo docker run -it ubuntu /bin/bash 
+
+#Executando container
+# ubuntu é o os que eu escolhi, mas pode ser centos, debian, etc.
