@@ -1,0 +1,5 @@
+sair do conteiner sem matar = Crtl + P + Q
+docker ps = mostra conteiners em execução]
+docker ps -a = mostra os conteiners executados
+
+também é possível reacessar o conteiner acessando pelo NAMES

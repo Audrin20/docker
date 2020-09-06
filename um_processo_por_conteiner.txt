@@ -1,0 +1,8 @@
+docker run -d centos /bin/bash -c "ping 8.8.8.8 -c 50"
+d = dettachada
+docker top CONTEINER_ID = mostra os processos executados no momento
+docker run ubuntu:versao_usada
+docker run --cpu-shares=256
+docker run memory=1g #1 giga
+docker inspect CONTEINER_ID
+docker logs CONTEINER_ID

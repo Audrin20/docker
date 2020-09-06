@@ -1,0 +1,12 @@
+docker images
+
+docker run ubuntu /bin/bash -c "echo 'Nice content' > /tmp/nice-content"
+docker commit CONTEINER_ID nome_imagem # criando minha imagem
+docker history IMAGE_NAME
+
+criando um diretorio em /mnt/Shared
+pegando a minha imagem "foo-bar", coloquei em meu diretorio como um arquivo tar
+docker save -o /mnt/Shared/foo-bar.tar foo-bar
+
+docker load -i "imagem copiada"
+

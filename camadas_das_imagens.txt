@@ -1,0 +1,11 @@
+Layer 0 1 2
+
+Base image = Root file system
+Java image= Layer 1
+Updates image = Layer 2
+
+ls -lia /var/lib/docker/overlay2/ = nesse diretorio tem os conteiners que ja
+
+que já foram iniciados e o seus systemas de arquivos...
+o que tiver nas camadas superiores é porque está sendo substituído lá na
+camada inferior

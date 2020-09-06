@@ -1,0 +1,24 @@
+docker run -it fedora /bin/bash
+
+fedora = o sistema baseado no fedora
+
+sempre é necessário especificar a imagem, no caso... fedora
+
+docker run = vai baixar a imagem que está marcada como "latest"
+
+docker pull -a fedora // vai baixar todas as imagens fedora do dockerhub
+
+
+docker images (OS) fedora // mostra as imagens que tem do sistema tal
+
+as imagens baixadas são armazenadas em /var/lib/docker/driverDeArmazenamento/
+
+docker run -it ubuntu /bin/bash
+
+-i = conteiner interativo
+-t = atribuir ao sudo acessar e fazer login no conteiner
+/bin/bash = onde será executado
+
+conteiner é uma máquina linux
+
+docker attach CONTEINER_ID = nos permite reacessar o conteiner
